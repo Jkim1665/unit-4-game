@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +9,45 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Crystal Game</title>
 </head>
+
 <body>
     <div class="container">
         <h1>Crystal Game!</h1>
-    <p>
-        <ol>
-            <li>You will be give a random number at the start of the game.</li>
-            <li>There are four crystals below. by click on a crystal you will ad a specific amount of points to your
-                total score.</li>
-            <li>You win the game by matching your total score to a random number. You lose the game if your total score
-                goes above the random number!</li>
-            <li> The value of each crystal is hidden from you until you click on it.</li>
-            <li>Each time when the game starts, the game will change the values of each crystal.</li>
-        </ol>
-    </p>
 
-    <p id="result"></p>
-    <div class="crystals">
-    </div>
+        <p>
+            <ol>
+                <li>You will be give a random number at the start of the game.</li>
+                <li>There are four crystals below. by click on a crystal you will ad a specific amount of points to your total
+                    score.</li>
+                <li>You win the game by matching your total score to a random number. You lose the game if your total score goes
+                    above the random number!</li>
+                <li> The value of each crystal is hidden from you until you click on it.</li>
+                <li>Each time when the game starts, the game will change the values of each crystal.</li>
+            </ol>
+        </p>
 
-    <p id= "win"></p>
-    <p id= "loss"></p>
+        <h1 id="result"></h1>
 
-    </div>
-    <script type="text/javascript" src="assets/js/script.js"></script>
+        <div class="crystals">
+        </div>
+
+        <div class=" row">
+
+            <h1>Your Total:
+                <span id="previous"></span>
+            </h1>
+
+            <div class="score-board">
+                <div>Wins:
+                    <span id="win">0</span>
+                </div>
+                <div>Loses:
+                    <span id="loss">0</span>
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
+
 </html>

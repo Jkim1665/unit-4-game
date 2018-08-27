@@ -11,6 +11,40 @@
     width: 200px; 
 }
 
+h1 {
+    width: 20%;
+    background-color:orange;
+    color: white;
+    border: 1px solid red; 
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;  
+}
+
+ol {
+    width:40%;
+    background-color:tan;
+    color: green;
+    margin-left: auto;
+    margin-right:auto;  
+}
+
+body {
+    background-color: lightblue;
+}
+
+.score-board {
+    border: 3px solid white;
+    width:200px;
+    margin: 20px auto;
+    background-color: lightblue;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+img{
+    width: 80px;
+}
 
 
 
